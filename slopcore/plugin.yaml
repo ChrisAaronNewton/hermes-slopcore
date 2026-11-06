@@ -1,0 +1,12 @@
+name: slopcore
+version: 0.1.0
+description: "Slopcore — the verified music-video pipeline as Hermes tools: intake a song + character sheets, split a hosted-Demucs vocal stem, build a gated wordmap, fire ONE hero performance insert (batch locked until the hero passes), and verify the finished film — frame count, audio correlation, per-take lag records, and fail-closed fidelity gates that reject full-mix feeds and envelope-only sync evidence."
+author: "Chris Newton (ChrisAaronNewton)"
+provides_tools:
+  - slopcore_insert
+  - slopcore_intake
+  - slopcore_stem
+  - slopcore_verify
+  - slopcore_wordmap
+requires_env:
+  - PIKA_API_KEY
