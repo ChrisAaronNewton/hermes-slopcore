@@ -275,6 +275,7 @@ def build_wordmap(stem_path: str, lyrics: str,
         "wordmap": entries,
     }
 
+
 # --------------------------------------------------------------- intake
 
 import hashlib  # noqa: E402  (intake section)
@@ -579,6 +580,7 @@ def fire_insert(build_dir: str, stem_slice: str, audio_url: str,
             "corr": alignment["corr"],
             "note": "take recorded UNADOPTED — slopcore_verify keeps the "
                     "batch locked until a hero passes the human eye"}
+
 
 # ---------------------------------------------------------------- tools
 
